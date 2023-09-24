@@ -1,0 +1,1 @@
+docker run -d --name alice -it -p 55683:22 alice
