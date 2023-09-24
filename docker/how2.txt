@@ -1,6 +1,0 @@
-build:
-docker build -t remote-server .
-
-run:
-docker run -d --name remote-server -it -p 55683:22 remote-server
-
