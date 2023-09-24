@@ -1,0 +1,11 @@
+You got in! 
+
+Welcome to my desktop. I'm currently running a linux machine. I have further instructions for you to find the messages between Bob and Alice. 
+Thing is I, for the life of me, can't remember where I left the messages. You're going to have to look through all my folders. 
+I also encrypted the message with my public key, but luckily for you my private key is available on this computer. Its going to be in the /keys folder. 
+
+Good Luck! 
+- Darth
+
+**Also, maybe try to see how you can copy files into a different directory in linux. Just to make your life a bit easier. 
+
