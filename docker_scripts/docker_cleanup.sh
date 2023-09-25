@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker rmi bob
-docker rmi darth
-docker rmi alice
+docker rmi -f bob
+docker rmi -f darth
+docker rmi -f alice
 docker rm $(docker ps --filter status=exited -q)
