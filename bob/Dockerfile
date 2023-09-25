@@ -1,4 +1,4 @@
-ROM ubuntu:latest
+FROM ubuntu:latest
 
 RUN mkdir -p /var/run/sshd
 
@@ -39,5 +39,4 @@ COPY ./build_files/flag.txt /home/bob/tea/party
 RUN mkdir /home/bob/Red
 RUN mkdir /home/bob/Red/Queen
 
-CMD ["/usr/sbin/sshd", "-D"]
-Binary file added 
+CMD ["/usr/sbin/sshd", "-D"] 
