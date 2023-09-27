@@ -10,10 +10,10 @@ RUN useradd -rm -d /home/darth -s /bin/bash darth && \
 RUN mkdir /home/darth/.ssh && \ 
     chmod 700 /home/darth/.ssh 
 
-COPY id_rsa.pub /home/darth/.ssh/authorized-keys
+COPY id_rsa.pub /home/darth/.ssh/authorized_keys
 
 RUN chown darth:darth -R /home/darth/.ssh && \
-    chmod 600 /home/darth/.ssh/authorized-keys
+    chmod 600 /home/darth/.ssh/authorized_keys
 
 COPY hello.txt /home/darth 
 
