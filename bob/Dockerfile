@@ -5,7 +5,7 @@ RUN mkdir -p /var/run/sshd
 RUN apt update && apt install -y openssh-server locate
 
 RUN useradd -rm -d /home/bob -s /bin/bash bob && \ 
-    echo bob:Wi11uGo0utWithM3? | chpasswd
+    echo bob:imJu5tAre311yShyB0y | chpasswd
 
 RUN mkdir /home/bob/.ssh && \ 
     chmod 700 /home/bob/.ssh 
