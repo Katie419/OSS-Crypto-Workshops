@@ -5,7 +5,7 @@ RUN mkdir -p /var/run/sshd
 RUN apt update && apt install -y openjdk-8-jdk openssh-server
 
 RUN useradd -rm -d /home/alice -s /bin/bash alice && \ 
-    echo alice:alice | chpasswd
+    echo alice:adklfjadjflsdghjsdkljfajksdhkfdasjkghlasjdg123 | chpasswd
 
 RUN mkdir /home/alice/.ssh && \ 
     chmod 700 /home/alice/.ssh 
